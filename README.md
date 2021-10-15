@@ -6,6 +6,16 @@ The purpose of this analysis was to discover how successful different campaigns 
 
 ## Analysis and Challenges
 
+The analysis included creating two different charts. One based off data from a pivot table from the raw data and one based off of a secondary data frame that was created in a new worksheet in Excel [Kickstarter_Challenge.xlsx](https://github.com/griswld2/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx).
+
+![Theater_Outcomes_vs_Launch.png](https://github.com/griswld2/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+
+The chart above shows the data that came from the pivot table. This requried creating a pivot table and also filtering data.
+
+![Outcomes_vs_Goals.png](https://github.com/griswld2/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+
+The Outcomes vs Goals chart required creating a new data frame and using the countifs function to bucket success, failed, and canceled plays by fundraising goals. It also required using the SUMS function in Excel and dividing the different fields by the total.
+
 The challenge was to look at how theaters performed from a monthly perspective and how plays performed based off their campaign fundraising goals. 
 
 Theater success peaked in the month of May and continued to see strong success throughout the summer months of June and July. 
